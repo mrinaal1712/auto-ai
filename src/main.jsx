@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import App from "./App.jsx"; // The match engine
-import LandingPage from "./LandingPage.jsx"; // You'll create this next
+import App from "./App.jsx";
+import LandingPage from "./LandingPage.jsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

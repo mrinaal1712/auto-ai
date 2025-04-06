@@ -69,19 +69,26 @@ export default function LandingPage() {
           <p className="text-gray-300 mb-6">
             We’re opening access soon. Be first to get early access.
           </p>
-          <form className="flex flex-col sm:flex-row gap-4 justify-center">
-            <input
-              type="email"
-              placeholder="Your email"
-              className="px-4 py-2 rounded-xl text-black border w-full sm:w-80"
-            />
-            <button
-              type="submit"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-xl"
-            >
-              Notify Me
-            </button>
-          </form>
+          <form
+  action="https://formspree.io/f/YOUR_ID_HERE"
+  method="POST"
+  className="flex flex-col sm:flex-row gap-4 justify-center"
+>
+  <input
+    type="email"
+    name="email"
+    placeholder="Your email"
+    required
+    className="px-4 py-2 rounded-xl text-black border w-full sm:w-80"
+  />
+  <button
+    type="submit"
+    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-xl"
+  >
+    Notify Me
+  </button>
+</form>
+
         </motion.div>
       </div>
 

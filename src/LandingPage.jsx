@@ -1,5 +1,10 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ]
+  
 
 export default function LandingPage() {
   return (

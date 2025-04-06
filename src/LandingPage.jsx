@@ -70,7 +70,7 @@ export default function LandingPage() {
             We’re opening access soon. Be first to get early access.
           </p>
           <form
-  action="https://formspree.io/f/YOUR_ID_HERE"
+  action="https://formspree.io/f/xkgjpjlk"
   method="POST"
   className="flex flex-col sm:flex-row gap-4 justify-center"
 >
